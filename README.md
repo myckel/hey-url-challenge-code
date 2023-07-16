@@ -1,3 +1,12 @@
+# FullStack Labs Challenge Solution: Short-URL
+Welcome to my comprehensive solution for the FullStack Labs' Short-URL challenge. This repository hosts a well-crafted solution that incorporates principles of efficiency, readability, and scalability.
+
+The solution is not merely about writing code; it's about thoroughly dissecting the problem, making strategic decisions, and deploying effective problem-solving tactics. The aim is to not only meet the challenge requirements but to surpass expectations with innovative thought and execution.
+
+For a complete understanding of the problem and the proposed solution, please find the original instructions from FullStack Labs below. Your feedback is highly appreciated as I'm eager to refine my approach based on your input.
+
+Let's dive into it!
+
 ![FullStack Labs](app/assets/images/FSL-logo-portrait.png)
 
 # HeyURL! Code Challenge

@@ -18,6 +18,17 @@
       </div>
     </nav>
     <main role="main" class="container">
+      <% if flash[:error] %>
+        <% [flash[:error]].flatten.each do |msg| %>
+          <%= render '_shared/flash', msg: msg, type: :error %>
+        <% end %>
+      <% end %>
+
+      <% if flash[:success] %>
+        <% [flash[:success]].flatten.each do |msg| %>
+          <%= render '_shared/flash', msg: msg, type: :success %>
+        <% end %>
+      <% end %>
       <%= yield %>
     </main>
   </body>

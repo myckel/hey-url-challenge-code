@@ -48,7 +48,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
-  gem 'rspec-rails', '~> 3.7'
+  gem 'rspec-rails', '~> 5.0.1'
 end
 
 group :development do
@@ -67,5 +67,17 @@ group :test do
   gem 'webdrivers', '~> 4.0', require: false
 end
 
+# Brings back `assigns` and `assert_template` to your Rails tests
+gem 'rails-controller-testing'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+# ActiveModel::Serializer implementation and Rails hooks
+gem 'active_model_serializers', '~> 0.10.0'
+
+# Interactor provides a common interface for performing complex user interactions.
+gem 'interactor'
+
+# Interactor Rails provides Rails support for the Interactor gem.
+gem 'interactor-rails'
